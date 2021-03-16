@@ -1,0 +1,27 @@
+{
+  "name": "WebDriverIOProj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/register": "^7.13.8",
+    "@wdio/cli": "^7.1.1"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^7.1.1",
+    "@wdio/local-runner": "^7.1.1",
+    "@wdio/spec-reporter": "^7.1.1",
+    "@wdio/sync": "^7.1.1",
+    "chromedriver": "^89.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
